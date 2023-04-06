@@ -1,4 +1,4 @@
-module middleware-chat
+module github.com/HinekoTech/middleware-chat
 
 go 1.19
 
