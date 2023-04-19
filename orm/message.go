@@ -5,7 +5,7 @@ import (
 )
 
 type Message struct {
-	ID string `db:"id" json:"id" gorm:"type:varchar(36);primary_key;"`
+	ID string `db:"id" json:"id" gorm:"type:varchar(36);primary_key;"` // use from firebase
 	orm.GormModel
 
 	RoomID        string `db:"room_id" json:"room_id" gorm:"type:varchar(36);index;"`
