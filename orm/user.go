@@ -21,4 +21,5 @@ type User struct {
 	Avatar    string `db:"avatar" json:"avatar" gorm:"type:varchar(100)"`
 	Email     string `db:"email" json:"email" gorm:"type:varchar(50)"`
 	Position  string `db:"position" json:"position" gorm:"type:varchar(100)"`
+	NotiToken string `db:"noti_token" json:"noti_token" gorm:"type:varchar(50);"`
 }
