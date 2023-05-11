@@ -7,6 +7,6 @@ type FavoriteMessage struct {
 	orm.GormModel
 
 	UserID  string `db:"user_id" json:"user_id" gorm:"type:varchar(36)"`
-	Name    string `db:"name" json:"name" gorm:"type:varchar(100)"`
+	Title   string `db:"title" json:"title" gorm:"type:varchar(100)"`
 	Message string `db:"message" json:"message" gorm:"type:text"`
 }
