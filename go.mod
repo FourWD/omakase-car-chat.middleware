@@ -1,8 +1,8 @@
-module github.com/HinekoTech/middleware-chat
+module github.com/FourWD/middleware-chat
 
 go 1.19
 
-require github.com/HinekoTech/middleware v1.0.1
+require github.com/FourWD/middleware v1.0.25
 
 require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
