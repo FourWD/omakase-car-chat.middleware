@@ -9,6 +9,9 @@ type User struct {
 	orm.GormModel
 	DomainID string `db:"domain_id" json:"domain_id" gorm:"type:varchar(36);"`
 
+	AppID      string `db:"app_id" json:"app_id" gorm:"type:varchar(10);"`
+	SaleID     string `db:"sale_id" json:"sale_id" gorm:"type:varchar(36);"`
+	StatusID   string `db:"status_id" json:"status_id" gorm:"type:varchar(36);"`
 	UserTypeID string `db:"UserTypeID" json:"UserTypeID" gorm:"type:varchar(2);"`
 
 	Username  string `db:"username" json:"username" gorm:"type:varchar(50)"`
