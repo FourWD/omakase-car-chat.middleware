@@ -1,4 +1,4 @@
-module github.com/FourWD/middleware-chat
+module github.com/FourWD/omakase-car-chat-middleware
 
 go 1.19
 
